@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 // library_system.cpp
 #include <iostream>
 #include <vector>
@@ -70,3 +71,27 @@ int main() {
 
     return 0;
 }
+=======
+#include<iostream>
+#include<vector>
+class integerlist{
+	private:std::vector<int> v;
+	public:
+	void add(int num){
+		v.push_back(num);
+	}
+	void display(){
+	for(int i=0;i<v.size();i++){
+      std::cout<<v[i]<<std::endl;		
+	}
+	}
+};
+int main(){
+std::cout<<"hello world"<<std::endl;
+integerlist list;
+list.add(10);
+list.add(25);
+list.add(30);
+list.display();
+}
+>>>>>>> Stashed changes
