@@ -93,5 +93,6 @@ list.add(10);
 list.add(25);
 list.add(30);
 list.display();
+
 }
->>>>>>> Stashed changes
+
