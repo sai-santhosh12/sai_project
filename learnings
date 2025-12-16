@@ -1,0 +1,62 @@
+#include <stdio.h>
+
+int main(){
+   
+   int k=5;
+   if(k>3){
+    printf("yes it is greater1");
+   }
+   else if(k>4){
+    printf("yes it is greater2");
+   }
+    
+}
+
+
+#include <stdio.h>
+
+int main(){
+   
+   int k=5;
+   if(k>3){
+    printf("yes it is greater1");
+   }
+   if(k>4){
+    printf("yes it is greater2");
+   }
+    return 0;
+}
+
+
+#include <stdio.h>
+
+int main(){
+   int* ptr;
+   printf("%d",*ptr);
+    return 0;
+}
+
+#include <stdio.h>
+
+int main(){
+   
+   int k=5;
+   switch(k){
+    case 1:
+    printf("yes it is greater than 0");
+    break;
+   case 2:
+    printf("yes it is greater than 1");
+    break;
+   case 3:
+   printf("yes it is greater than 2");
+    break;
+    case 4:
+   printf("yes it is greater than 3");
+    break;
+   case 5:
+   printf("yes it is greater than 4");
+   break;
+   }
+    return 0;
+}
