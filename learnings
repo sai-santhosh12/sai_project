@@ -60,3 +60,77 @@ int main(){
    }
     return 0;
 }
+
+#include<stdio.h> 
+
+int main(){
+	
+	int arr[3]={10,40,50};
+	int *ptr=arr;
+	/* int k=*ptr++;
+	printf("k=%d",k);
+	printf("ptr=%d",*ptr); */
+	
+	output :10 40
+	
+	while(ptr){
+		printf("%d",*ptr);
+	}
+	output : 10,40,50 garbage values
+		
+}
+
+#include <stdio.h>
+
+int main(){
+   int counter=0;
+   while(counter<21){
+      counter++;
+   }
+
+}
+
+#include <stdio.h>
+
+int main(){
+   int counter=0;
+   while(counter<21){
+      counter++;
+   }
+
+}
+
+
+#include<stdio.h>
+
+static int a;
+
+#include <stdio.h>
+#include "static_header.h"
+int main(){
+a=10;
+printf("%d",a);
+return 0;
+}
+
+#include<iostream>
+//#include "static_header.h"
+
+int main(){
+	printf("%d",a);
+return 0;	
+}
+
+
+#include <stdio.h>
+
+int main(){
+   int a=0x1234;
+   char* ptr=(char*)&a;
+   if(*ptr==0x34){
+       printf("littile");
+   }
+    return 0;
+}
+
+
